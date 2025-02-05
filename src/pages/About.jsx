@@ -18,12 +18,12 @@ const About = () => {
             </div>
 
             <div className='w-full max-w-[420px]'>
-                <img src="../public/profession.png" alt="" className='w-full object-cover'/>
+                <img src="/profession.png" alt="" className='w-full object-cover'/>
             </div>
         </div>
 
         <div className='w-full max-w-[90vw] md:w-[70vw] h-[380px] relative rounded-[40px] overflow-hidden my-16 lg:my-32 mx-auto'>
-            <img src="../public/aboutimg.jpeg" alt="" className='w-full h-full object-cover' />
+            <img src="/aboutimg.jpeg" alt="" className='w-full h-full object-cover' />
             <div className="absolute inset-0 bg-black opacity-70"></div>
             <div className='absolute inset-0 text-white text-center px-6 md:px-16 flex flex-col justify-center items-center'>
                 <h1 className='text-[30px] md:text-[40px] lg:text-[60px]'>Take Action</h1>

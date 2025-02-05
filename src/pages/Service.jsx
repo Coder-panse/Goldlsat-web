@@ -8,7 +8,7 @@ const Service = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[540px] mt-4">
         <img
-          src="../public/serviceimg.png"
+          src="/serviceimg.png"
           alt="Service"
           className="w-full h-full object-cover"
         />
@@ -40,7 +40,7 @@ const Service = () => {
       {/* Call to Action Section */}
       <div className="w-[90vw] sm:w-[80vw] md:w-[70vw] h-auto md:h-[380px] relative rounded-[40px] overflow-hidden my-16 md:my-32 mx-auto">
         <img
-          src="../public/aboutimg.jpeg"
+          src="/aboutimg.jpeg"
           alt="About"
           className="w-full h-full object-cover"
         />

@@ -4,21 +4,21 @@ import React from 'react';
 const Cards = () => {
     let data = [
         {
-            img: "../public/book.png",
+            img: "/book.png",
             title: "PowerPrep Tutoring",
             amount: "$Free",
             des: "New to the LSAT? No problem! Start with a FREE 30-minute consultation. Here I will see what level you’re at, give you tips to improve your game, and get you on the right footing for that 170+.",
             time: "30 Minute Session"
         },
         {
-            img: "../public/book.png",
+            img: "/book.png",
             title: "Accelerate Learning Kits",
             amount: "$199",
             des: "Unleash your potential with our elite tutoring solutions that deliver results efficiently. See improvement within days and have a guarantee to increase your score at any level.",
             time: "1 hour Session"
         },
         {
-            img: "../public/book.png",
+            img: "/book.png",
             title: "Accelerate Tutoring",
             amount: "$199",
             des: "Experience rapid mastery in any question type or section with our personalized learning approach. Our platform ensures top-tier performance and unmatched growth.",

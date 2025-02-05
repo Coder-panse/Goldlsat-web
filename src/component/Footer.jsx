@@ -8,9 +8,9 @@ const Footer = () => {
             <h1 className='text-white text-4xl md:text-5xl font-semibold mb-4'>Gold<span className='text-[#5628FF]'>LSAT</span></h1>
             <p className='text-white text-base md:text-lg font-medium'>Unlock Your True LSAT <br className='hidden md:block'/>Potential</p>
             <div className='flex gap-3.5 items-center justify-center md:justify-start mt-4'>
-                <a href=""><img src="../public/facebook.png" alt="" className='w-[50px] md:w-[85px]'/></a>
-                <a href=""><img src="../public/instagram.png" alt="" className='w-[40px] md:w-[50px]' /></a>
-                <a href=""><img src="../public/youtube.png" alt="" className='w-[50px] md:w-[73px]' /></a>
+                <a href=""><img src="/facebook.png" alt="" className='w-[50px] md:w-[85px]'/></a>
+                <a href=""><img src="/instagram.png" alt="" className='w-[40px] md:w-[50px]' /></a>
+                <a href=""><img src="/youtube.png" alt="" className='w-[50px] md:w-[73px]' /></a>
             </div>
         </div>
         <div className='text-white mb-8 md:mb-0'>

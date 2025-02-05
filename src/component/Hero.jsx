@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       <div className='w-full h-[630px] mt-2.5 relative'>
-        <img src='../public/Goldimg.png' className='w-full h-full object-cover' alt='Hero Background' />
+        <img src='/Goldimg.png' className='w-full h-full object-cover' alt='Hero Background' />
         <div className='absolute inset-0 bg-black opacity-60'></div>
         <div className='absolute inset-0 flex flex-col items-center justify-center text-center px-5'>
           <p className='text-white text-3xl md:text-5xl font-bold leading-[70px]' >
@@ -58,7 +58,7 @@ const Hero = () => {
           </div>
 
           <div className='w-[250px] md:w-[246px]'>
-            <img src='../public/calender.png' alt='Calendar' className='drop-shadow-md w-full' />
+            <img src='/calender.png' alt='Calendar' className='drop-shadow-md w-full' />
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@ const Hero = () => {
         </div>
 
         <div className='w-[280px] md:w-[420px]'>
-          <img src='../public/profession.png' alt='Professional' className='w-full object-cover' />
+          <img src='/profession.png' alt='Professional' className='w-full object-cover' />
         </div>
       </div>
 
@@ -86,10 +86,10 @@ const Hero = () => {
         <h1 className='text-white text-xl md:text-2xl font-medium'>Follow Us on Social Media</h1>
         <div className='hidden md:block h-[95px] w-[5px] bg-white rounded'></div>
         <div className='flex items-center gap-4 md:gap-5 mt-3 md:mt-0'>
-          <a href='#'><img src='../public/instagram.png' alt='Instagram' className='w-[40px] md:w-[50px] hover:cursor-pointer' /></a>
-          <a href='#'><img src='../public/facebook.png' alt='Facebook' className='w-[60px] md:w-[85px] hover:cursor-pointer' /></a>
-          <a href='#'><img src='../public/youtube.png' alt='YouTube' className='w-[50px] md:w-[73px] hover:cursor-pointer' /></a>
-          <a href='#'><img src='../public/tik tok.png' alt='TikTok' className='w-[50px] md:w-[75px] hover:cursor-pointer' /></a>
+          <a href='#'><img src='/instagram.png' alt='Instagram' className='w-[40px] md:w-[50px] hover:cursor-pointer' /></a>
+          <a href='#'><img src='/facebook.png' alt='Facebook' className='w-[60px] md:w-[85px] hover:cursor-pointer' /></a>
+          <a href='#'><img src='/youtube.png' alt='YouTube' className='w-[50px] md:w-[73px] hover:cursor-pointer' /></a>
+          <a href='#'><img src='/tik tok.png' alt='TikTok' className='w-[50px] md:w-[75px] hover:cursor-pointer' /></a>
         </div>
       </div>
     </>

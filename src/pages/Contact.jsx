@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div>
       <div className='w-full h-[540px] mt-4 relative'>
-        <img src="../public/contactImg.jpeg" alt="" className='w-full h-full object-cover' />
+        <img src="/contactImg.jpeg" alt="" className='w-full h-full object-cover' />
         <div className="absolute inset-0 bg-black opacity-70"></div>
         <div className='absolute inset-0 flex flex-col justify-center text-center px-4 md:px-0'>
           <h1 className='text-white text-3xl md:text-5xl font-bold'>GET IN TOUCH</h1>
@@ -16,21 +16,21 @@ const Contact = () => {
       <div className='w-[90vw] max-sm:items-center md:w-[70vw] bg-white relative top-[-50px] flex flex-wrap md:flex-nowrap items-center justify-center md:justify-between mx-auto p-6 shadow-lg rounded-md gap-4'>
        
         <div className='flex items-center gap-2.5'>
-          <img src="../public/phone.png" alt="" className='w-[50px] md:w-[60px] h-[50px] md:h-[60px]' />
+          <img src="/phone.png" alt="" className='w-[50px] md:w-[60px] h-[50px] md:h-[60px]' />
           <p className='text-sm md:text-base'>+1 (917) 582-6971</p>
         </div>
 
         <div className='hidden md:block h-[110px] w-[5px] rounded-md bg-[#5628FF]'></div>
 
         <div className='flex items-center gap-2.5'>
-          <img src="../public/message.png" alt="" className='w-[50px] md:w-[60px] h-[50px] md:h-[60px]' />
+          <img src="/message.png" alt="" className='w-[50px] md:w-[60px] h-[50px] md:h-[60px]' />
           <p className='text-sm md:text-base'>goldnnsa@gmail.com</p>
         </div>
 
         <div className='hidden md:block h-[110px] w-[5px] rounded-md bg-[#5628FF]'></div>
 
         <div className='flex items-center gap-2.5'>
-          <img src="../public/location.jpeg" alt="" className='w-[50px] md:w-[60px] h-[50px] md:h-[60px] rounded-full' />
+          <img src="/location.jpeg" alt="" className='w-[50px] md:w-[60px] h-[50px] md:h-[60px] rounded-full' />
           <p className='text-sm md:text-base'>New York, Virginia</p>
         </div>
        
